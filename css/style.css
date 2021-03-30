@@ -36,6 +36,7 @@ header h1 {
 }
 .border {
   background-color: #f7f7f7;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -56,6 +57,7 @@ h4 {
   font-size: 21px;
   font-weight: 600;
   margin-top: 90px;
+  margin-bottom: 30px;
 }
 td p {
   font-weight: normal;
@@ -80,3 +82,14 @@ td p {
 .color p {
   color: #f7f7f7;
 }
+img {
+  width: 65px;
+  height: 64px;
+  margin: 40px 87px -31px 87px;
+}
+/*
+.diamond {
+    background-image: url(img/diamond.png)
+  background-color: ;
+}
+*/
