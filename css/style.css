@@ -34,3 +34,49 @@ header h1 {
   line-height: 30px;
   color: #999999;
 }
+.border {
+  background-color: #f7f7f7;
+}
+a {
+  text-decoration: none;
+}
+td {
+  display: inline-block;
+  text-align: center;
+  width: 240px;
+  height: 420px;
+
+  border: 1px solid #ececec;
+}
+
+h4 {
+  color: #1b1b1b;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 90px;
+}
+td p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block;
+
+  width: 212px;
+  height: 110px;
+
+  text-align: center;
+  color: #777777;
+}
+.color {
+  background-color: #0ec8cb;
+  border: 1px solid #0ec8cb;
+  box-sizing: border-box;
+}
+.color h4 {
+  color: #f7f7f7;
+}
+.color p {
+  color: #f7f7f7;
+}
