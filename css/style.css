@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-transform: uppercase;
+  text-align: center;
+  height: 280px;
+}
+header p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #898f99;
+
+  margin: 15px;
+}
+header h1 {
+  text-transform: uppercase;
+  color: #0ec8cb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+}
+.chapter {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  width: 528px;
+  height: 100px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+}
