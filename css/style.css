@@ -63,10 +63,7 @@ h4 {
   margin-top: 90px;
   margin-bottom: 30px;
 }
-td h4:hover {
-  color: #f7f7f7;
-}
-td p:hover {
+td:hover h4, td:hover p {
   color: #f7f7f7;
 }
 td p {
@@ -86,9 +83,8 @@ img {
   height: 64px;
   margin: 40px 87px -31px 87px;
 }
-/*
-.diamond {
-    background-image: url(img/diamond.png)
-  background-color: ;
+
+img{
+    background-color;: url("img/anchor.png")
 }
-*/
+
