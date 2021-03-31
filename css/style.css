@@ -6,6 +6,7 @@ header {
   text-transform: uppercase;
   text-align: center;
   height: 280px;
+  font-family: "PT Sans", sans-serif;
 }
 header p {
   font-size: 12px;
@@ -44,6 +45,7 @@ a {
 }
 td {
   display: inline-block;
+  font-family: "PT Sans", sans-serif;
   text-align: center;
   width: 240px;
   height: 420px;
@@ -63,7 +65,8 @@ h4 {
   margin-top: 90px;
   margin-bottom: 30px;
 }
-td:hover h4, td:hover p {
+td:hover h4,
+td:hover p {
   color: #f7f7f7;
 }
 td p {
@@ -84,7 +87,21 @@ img {
   margin: 40px 87px -31px 87px;
 }
 
-img{
-    background-color;: url("img/anchor.png")
+.anchor {
+  background: url("img/anchor.png");
 }
-
+.diamond {
+  background: url("img/diamond.png");
+}
+.glasses {
+  background: url("img/glasses.png");
+}
+.monitor {
+  background: url("img/monitor.png");
+}
+td:hover .anchor,
+td:hover .diamond,
+td:hover .glasses,
+td:hover .monitor {
+  background: aliceblue;
+}
