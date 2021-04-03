@@ -3,6 +3,7 @@
   padding: 0;
 }
 header {
+  margin-top: 100px;
   text-transform: uppercase;
   text-align: center;
   height: 280px;
@@ -12,9 +13,8 @@ header p {
   font-size: 12px;
   line-height: 15px;
   font-weight: 600;
-  font-family: "PT" sans-serif;
+  font-family: "PT", sans-serif;
   color: #898f99;
-
   margin: 15px;
 }
 header h1 {
