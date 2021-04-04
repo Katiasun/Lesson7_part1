@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+main {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
 header {
   margin-top: 100px;
   text-transform: uppercase;
@@ -40,8 +44,49 @@ header h1 {
   background-color: #f7f7f7;
   margin: 0 auto;
 }
+.anchor {
+  background-image: url("/img/anchor.png");
+  width: 65.08px;
+  height: 64px;
+  margin-top: 55px;
+  margin-left: 87.46px;
+}
+td:hover .anchor {
+  background-image: url("/img/anchor\ \(1\).png");
+}
+.diamond {
+  background-image: url("/img/diamond.png");
+  width: 65.08px;
+  height: 64px;
+  margin-top: 55px;
+  margin-left: 87.46px;
+}
+td:hover .diamond {
+  background-image: url("/img/diamond\ \(1\).png");
+}
+.glasses {
+  background-image: url("/img/glasses.png");
+  width: 65.08px;
+  height: 48px;
+  margin-top: 55px;
+  margin-left: 87.46px;
+}
+td:hover .glasses {
+  background-image: url("/img/glasses\ \(1\).png");
+}
+.monitor {
+  background-image: url("/img/monitor.png");
+  width: 65px;
+  height: 52px;
+  margin-top: 55px;
+  margin-left: 87.46px;
+}
+td:hover .monitor {
+  background-image: url("/img/monitor\ \(1\).png");
+}
 a {
   text-decoration: none;
+  display: block;
 }
 td {
   display: inline-block;
@@ -80,28 +125,4 @@ td p {
 
   text-align: center;
   color: #777777;
-}
-img {
-  width: 65px;
-  height: 64px;
-  margin: 40px 87px -31px 87px;
-}
-
-.anchor {
-  background: url("img/anchor.png");
-}
-.diamond {
-  background: url("img/diamond.png");
-}
-.glasses {
-  background: url("img/glasses.png");
-}
-.monitor {
-  background: url("img/monitor.png");
-}
-td:hover .anchor,
-td:hover .diamond,
-td:hover .glasses,
-td:hover .monitor {
-  background: aliceblue;
 }
